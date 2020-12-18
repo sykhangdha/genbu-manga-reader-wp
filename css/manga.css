@@ -1,0 +1,290 @@
+/**
+ * Genbu Manga Reader CSS
+ * Default CSS files.
+ * 
+ * @version 0.1.0
+ */
+
+/* Wrapper
+----------------------------------------- */
+.manga-index-page,
+.manga-title-page,
+.manga-reader-page{
+	clear:both;
+	margin-bottom:15px;
+	font-family:"Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+}
+.manga-index-page a,
+.manga-title-page a,
+.manga-reader-page a{
+	text-decoration:none;
+}
+
+/* Pager
+----------------------------------------- */
+.manga-pager {
+	background: #ccc;
+	display:block;
+	padding:12px 2% 0 2%;
+	margin:0 auto 10px auto;
+	font-size: 11px;
+	font-weight: normal;
+	color: #7c7c7c;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+	border: 1px solid #d2d2d2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+	height:36px;
+	width:95%;
+}
+/* elements */
+.manga-pager select{
+	width:100%;
+	padding:2px;
+	margin:0;
+	color:#a5acb2;
+}
+.manga-pager option{
+	color:#a5acb2;
+}
+/* title */
+.manga-pager-title{
+	width:26%;
+	float:left;
+	margin:0 2% 0 2%;
+}
+.manga-start-page .manga-pager-title{
+	float:none;
+	margin: 0 auto 2% auto;
+}
+/* chapter */
+.manga-pager-chapter{
+	width:43%;
+	float:left;
+	margin:0 2% 0 2%;
+}
+/* page */
+.manga-pager-page{
+	width:18%;
+	float:right;
+	margin:0 2% 0 2%;
+}
+
+/* Nav and Share
+-------------------------------------------- */
+.manga-reader-utility{
+	clear:both;
+	display:inline-block;
+	margin:0;
+	width:100%;
+}
+.manga-pager-page-nav{
+	float:right;
+	display:inline-block;
+	font-size: 10px;
+	font-weight: normal;
+	margin-right:2%;
+	margin-top:3px;
+	text-transform:uppercase;
+	color:#A5ACB2;
+	width:120px;
+}
+.manga-pager-page-nav a{
+	text-decoration:none;
+	color:#8b2f20;
+}
+.manga-pager-page-nav a:hover{
+	text-decoration:none;
+	color:#8b2f20;
+	background:#ffd050;
+}
+.pager-nav-no-next,
+.pager-nav-no-previous,
+.pager-nav-next,
+.pager-nav-previous{
+	background:#fff2ab;
+	border:1px solid #e0a949;
+	padding:3px 10px;
+	height:10px;
+	line-height:10px;
+	width:30px;
+	text-align: center;
+}
+.pager-nav-previous,
+.pager-nav-no-previous{
+	float:left;
+	margin-left:2%;
+}
+.pager-nav-next,
+.pager-nav-no-next{
+	float:right;
+	margin-right:2%;
+}
+/* share button */
+.manga-reader-share{
+	margin-top:2px;
+	margin-bottom:15px;
+	display:block;
+	width:100%;
+	height:25px;
+}
+.manga-reader-page .manga-reader-share{
+	margin-left:1%;
+	margin-bottom:0;
+	width:75%;
+}
+.manga-reader-page .manga-reader-utility-bottom{
+	margin-top:10px;
+}
+.gmr-like{
+	float:left;
+	width:300px;
+}
+.gmr-tweet{
+	float:left;
+	width:95px;
+}
+.gmr-plus{
+	float:left;
+	width:65px;
+}
+
+/* Ads, before and after images
+--------------------------------------------- */
+.before-manga,
+.after-manga{
+	text-align:center;
+	display:block;
+	clear:both;
+}
+.before-manga{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+/* Manga Image / Picture
+--------------------------------------------- */
+.manga-picture-wrap{
+	text-align:center;
+	border:5px solid #A9A9A9;
+	width:98%;
+}
+/* image */
+.manga-picture{
+	max-width:100% !important;
+	width: 100%;
+	height:auto;
+	display:block;
+	padding:0 !important;
+	margin:0 !important;
+	border:none !important;
+}
+/* viewer title */
+.manga-viewer-title{
+	text-align:left;
+	background:#FEFBEA;
+	padding-bottom:5px;
+	display:inline-block;
+	width:100%;
+	overflow:hidden;
+}
+.current-manga-title{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	line-height:14px;
+	clear:none;
+	margin:4px 0 0 10px !important;
+}
+
+/* Tips Area and Alert Notice
+---------------------------------------- */
+.manga-alert,
+.manga-alert-key{
+	font-size:12px;
+	text-align:left;
+	padding: 6px 9px;
+	background: #fffbbc;
+	border: 1px solid #E6DB55;
+	margin:0 auto 20px auto;
+	display: block;
+	clear:both;
+	width:95%;
+}
+.manga-alert-key p{
+	margin-bottom:0 !important;
+}
+.manga-alert{
+	text-align:center;
+}
+.manga-alert-key{
+	text-align:left;
+}
+
+/* Genbu Theme Layout.
+--------------------------------------------- */
+.is-genbu-theme-gmr #content .hfeed {
+    width: 760px;
+}
+
+/* Manga Table Index
+--------------------------------------------- */
+/* updated */
+.manga-updated{
+	color: #A5ACB2;
+	font-size:12px;
+	font-style:italic;
+}
+
+/* chapter */
+.manga-chapter-index-title{
+	font-weight:normal;
+	color: #A5ACB2;
+}
+table.manga-chapter-index th{
+	width:80%;
+}
+
+/* CPT
+--------------------------------------------- */
+.manga-thumbnail{
+	float:right;
+	margin-left: 20px;
+}
+.manga-info p{
+	margin:0 !important;
+}
+.manga-info-wrapper,
+.manga-description{
+	clear:both;
+}
+.manga-alt-name{
+	color:#999;
+	font-size:16px;
+}
+.manga-ads{
+	margin-top:20px;
+	display:inline-block;
+}
+.manga-title a{
+	font-size:10px !important;
+}
+.manga-title-page #singular-header .manga-title{
+	margin-bottom: 10px;
+}
+.manga-reader-title{
+	color: #666;
+	font-size: 14px !important;
+	margin:0 !important;
+	text-align:left;
+	padding:0 0 0 5px !important;
+	background:#FEFBEA;
+}

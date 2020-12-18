@@ -1,0 +1,44 @@
+/**
+ * CMB Styling
+ */
+table.tmb_metabox td, table.tmb_metabox th { border-bottom: 1px solid #E9E9E9; }
+table.tmb_metabox th { text-align: right; font-weight:bold;}
+table.tmb_metabox th label { margin-top:5px; display:block;font-size:12px;}
+p.tmb_metabox_description { color: #AAA; font-style: italic; margin: 2px 0 !important;}
+span.tmb_metabox_description { color: #AAA; font-style: italic;}
+table.tmb_metabox input, table.tmb_metabox textarea { font-size:12px; padding: 5px; }
+table.tmb_metabox input[type=text], table.tmb_metabox textarea { width: 97%; }
+table.tmb_metabox textarea.tmb_textarea_code { font-family: Consolas,Monaco,monospace; line-height: 16px;}
+table.tmb_metabox input.tmb_text_small { width: 100px; margin-right: 15px;}
+table.tmb_metabox input.tmb_timepicker { width: 100px; margin-right: 15px;}
+table.tmb_metabox input.tmb_text_money { width: 90px; margin-right: 15px;}
+table.tmb_metabox input.tmb_text_medium { width: 230px; margin-right: 15px;}
+table.tmb_metabox input.tmb_upload_file { width: 65%; }
+table.tmb_metabox li { font-size:12px; margin: 1px 0 5px 0; line-height: 16px; }
+table.tmb_metabox ul { padding-top:5px; margin: 0; }
+table.tmb_metabox select { font-size:12px; margin-top: 3px;}
+table.tmb_metabox input:focus, table.tmb_metabox textarea:focus { background: #fffff8;}
+.tmb_metabox_title { margin: 0 0 5px 0; padding: 5px 0 0 0; font: italic 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif;}
+.tmb_radio_inline { padding: 4px 0 0 0;}
+.tmb_radio_inline_option {display: inline; padding-right: 18px;}
+table.tmb_metabox input[type="radio"] { margin: 0 5px 0 0; padding: 0;}
+table.tmb_metabox input[type="checkbox"] { margin: 0 5px 0 0; padding: 0;}
+table.tmb_metabox .mceLayout {border:1px solid #DFDFDF !important;}
+table.tmb_metabox .mceIframeContainer {background:#FFF;}
+table.tmb_metabox .meta_mce {width:97%;}
+table.tmb_metabox .meta_mce textarea {width:100%;}
+table.tmb_metabox .tmb_upload_status {  margin: 10px 0 0 0;}
+table.tmb_metabox .tmb_upload_status .img_status {  position: relative; }
+table.tmb_metabox .tmb_upload_status .img_status img { border:1px solid #DFDFDF; background: #FAFAFA; max-width:350px; padding: 5px; -moz-border-radius: 2px; border-radius: 2px;}
+table.tmb_metabox .tmb_upload_status .img_status .tmb_remove_file_button { text-indent: -9999px; background: url(../images/ico-delete.png); width: 16px; height: 16px; position: absolute; top: -5px; left: -5px;}
+table.tmb_metabox .gallery-image-list{width:100%;display:inline-block;margin-top: 20px;}
+table.tmb_metabox .gallery-image-wrapper{width:160px;float:left;text-align:center;}
+table.tmb_metabox .gallery-image-wrapper .gallery-img{width:100%;clear:both;}
+table.tmb_metabox .gallery-image-wrapper img{margin:10px;border:solid 1px #ccc;}
+table.tmb_metabox .tmb-gallery-upload {padding:7px 7px 7px 25px;display:inline-block;background: url(../images/media-button.png) 7px no-repeat #21759B}
+table.tmb_metabox .tmb-gallery-upload:active,
+table.tmb_metabox .tmb-gallery-upload:focus{background: url(../images/media-button.png) 7px no-repeat #21759B}
+
+/* Sidebar placement adjustments */
+.inner-sidebar table.tmb_metabox input[type=text], table.tmb_metabox textarea { width: 95%; }
+.inner-sidebar table.tmb_metabox .tmb_upload_status .img_status img { width: 90%; }

@@ -1,0 +1,333 @@
+/**
+ * Theme Options Style
+ * TMB Options
+ * @since 2.0.0
+ */
+
+/* Notification */
+.updated {
+	margin-bottom:0px !important;
+}
+.error {
+	margin-bottom:0px !important;
+}
+
+/* Tab Wrapper */
+h3.nav-tab-wrapper {
+
+}
+
+/**
+ * Options Content 
+*****************************************/
+#tmboptions {
+	position:relative;
+	z-index: 0;
+	background:transparent;
+	border-top: 0px;
+	border-color:#ccc;
+	margin-top: -26px;
+}
+#tmboptions p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	line-height: 1.4em;
+}
+
+/* Sections 
+-----------------------------------------*/
+#tmboptions .section {
+	padding:10px 10px 0;
+}
+#tmboptions .section .option{
+	max-width:800px;
+}
+#tmboptions .group {
+	padding-bottom:40px;
+}
+#tmboptions .section .heading {
+	padding:10px 0px;
+	margin:0 0 15px;
+	border-bottom: 1px solid #dfdfdf;
+}
+#tmboptions .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#tmboptions .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#tmboptions .controls input, 
+#tmboptions .controls select, 
+#tmboptions .controls textarea {
+	font-family: Consolas,Monaco,monospace;
+	line-height: 150%;
+	margin-bottom:10px;
+	width:100%;
+}
+#tmboptions .controls .tmb-border-width {
+	width:80px;
+	float:left
+}
+#tmboptions .controls .tmb-border-style {
+	width:120px;
+	float:left
+}
+#tmboptions .hide {
+	display:none;
+}
+#tmboptions .tmb-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#tmboptions .section-text .explain, 
+#tmboptions .section-textnumeric .explain, 
+#tmboptions .section-textmultinumeric .explain, 
+#tmboptions .section-texturl .explain, 
+#tmboptions .section-select .explain {
+	margin-top:4px;
+}
+
+/* Checkbox */
+#tmboptions .section-checkbox .controls {
+	width: 98%;
+}
+#tmboptions .section-checkbox .explain {
+	max-width:94%;
+}
+
+/* Color */
+#tmboptions .section-color .controls {
+	min-width:125px;
+	width:125px
+}
+#tmboptions .controls .tmb-color {
+	float:left;
+	width: 80px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+/* Check box, Multi check box, and Radio */
+#tmboptions .section-radio label, 
+#tmboptions .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#tmboptions input.checkbox, #tmboptions input.tmb-radio {
+	clear:both;
+	float:left;
+	margin: 2px 12px 0px 5px;
+    width: auto;
+}
+
+/* Typography */
+#tmboptions .controls .tmb-typography-size {
+	width:80px;
+	margin-left:5px;
+	float:left
+}
+#tmboptions .controls .tmb-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#tmboptions .controls .tmb-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#tmboptions .controls .tmb-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+
+/* Background */
+#tmboptions .tmb-background-properties {
+	clear:both;
+	margin-top: 18px;
+}
+#tmboptions .controls .tmb-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#tmboptions .controls .tmb-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#tmboptions .controls .tmb-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#tmboptions div.section-background .controls input.upload {
+	width:47%;
+}
+
+/* Radio Image */
+#tmboptions .controls .tmb-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#tmboptions .controls .tmb-radio-img-selected {
+	border:3px solid #ccc
+}
+#tmboptions .controls .tmb-radio-img-img:hover {
+	opacity:.8;
+}
+
+/* Editor */
+#tmboptions .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+#tmboptions .section-upload .explain {
+	margin-top:5px;
+}
+#tmboptions .controls input.upload {
+	width:80%;
+}
+#tmboptions .controls input.upload_button {
+	float:right;
+	width:75px;
+	border-color:#BBBBBB;
+	cursor:pointer;
+	padding: 0;
+	padding-bottom:2px;
+	height:25px;
+}
+#tmboptions .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+#tmboptions .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#tmboptions .screenshot img {
+	background:#FAFAFA;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#tmboptions .screenshot .mlu_remove {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#tmboptions .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#tmboptions .screenshot .no_image .mlu_remove {
+	bottom: 0px;
+}
+
+/* Info */
+#tmboptions .section-info p {
+	color: #777;
+}
+
+/* Bottom Section 
+--------------------------------------------------*/
+#tmboptions-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ECECEC;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+#tmboptions .button-primary {
+	float:right;
+}
+#tmboptions .reset-button {
+	float:left;
+	cursor:pointer;
+}
+#tmboptions .section:before, #tmboptions .section:after {
+	content: "";
+	display: table;
+}
+#tmboptions .section:after {
+	clear: both;
+}
+
+/* Size 
+--------------------------------------------------*/
+
+/* Small */
+#tmboptions .small .controls select, 
+#tmboptions .section .small .controls {
+	width: 140px;
+}
+#tmboptions .small .controls input, 
+#tmboptions .small .controls {
+	min-width:140px;
+	width: 140px;
+}
+#tmboptions .small .explain {
+	max-width:74%;
+}
+
+/* mini */
+#tmboptions .mini .controls input, 
+#tmboptions .mini .controls select, 
+#tmboptions  .mini .controls {
+	min-width:70px;
+	width: 70px;
+}
+#tmboptions .mini .explain {
+	max-width:86%;
+}
+
+/* tiny */
+#tmboptions .tiny .controls input, 
+#tmboptions .tiny .controls select, 
+#tmboptions .tiny .controls {
+	min-width:35px;
+	width: 35px;
+}
+#tmboptions .tiny .explain {
+	max-width:90%;
+}
+
+/* Switcher For Social Profile 
+--------------------------------------------------*/
+#tmboptions .switcher .controls{
+	float:right;
+	margin-right:200px;
+}
+#tmboptions .switcher-small .controls{
+	margin-right: 492px;
+}
